@@ -1,0 +1,102 @@
+
+.home {
+background-color: #FCF2ef;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 13px;
+  margin: auto; 
+  position: relative;
+  text-align:center;
+  display: block;
+  cursor: url(./hammer1a.png)10 10,auto;
+
+}
+a{
+  text-decoration: none;
+  color: #111227;
+  }
+a:active {
+  animation: cursorhammer 0.5s linear 1; 
+ 
+  
+}
+@keyframes cursorhammer{
+    0% { 
+        cursor: url(./hammer1a.png) 10 10, auto;
+    }
+    20% { 
+        cursor: url(./hammer2a.png) 10 10, auto;
+    }
+    40% { 
+    cursor: url(./hammer3a.png) 11 10, auto;
+    }
+    60% { 
+        cursor: url(./hammer4a.png) 14 10, auto;
+    }
+     80% { 
+        cursor: url(./hammer5a.png) 15 10, auto;
+    }
+         100% { 
+        cursor: url(./hammer5a.png) 15 10, auto;
+    }
+}
+
+.logoheader{
+  background-color: #7DA4DE;
+  padding:10px; 
+  position: relative;
+  display: flex;
+  justify-content: right;
+  align-self: flex-end;
+}
+
+.main-menu{
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  text-align:right;
+  align-self: flex-end;
+}
+.homepage1{
+height: auto;
+display: flex;
+background-color: #7DA4DE;
+border-bottom: 5px solid #111227;
+align-items: center;
+flex-wrap: flex;
+flex-direction: column;
+margin: auto;
+}
+
+.homepage{
+background-color: #FCF2ef;
+height: 600px;
+display: block;
+
+}
+.footer{
+width:70%;
+display: flex;
+padding-bottom: 50px;
+justify-content: space-around;
+margin:auto;
+}
+.footer-menu{
+width:20%;
+text-align:left;
+margin: auto;
+}
+.footer-contact{
+width:20%;
+text-align:center;
+margin: auto;
+}
+.footer-logo{
+width:20%;
+text-align:center;
+margin: auto;
+}
+
+
