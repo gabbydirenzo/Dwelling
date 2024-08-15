@@ -52,6 +52,7 @@ a{
   flex-direction: column;
   margin: auto;
   padding-top:25px;
+  max-width: 300px;
   }
 .block2{
  margin: auto;
@@ -84,15 +85,17 @@ a{
   font-size: 13px;
   align-items: center;
   }
+
+}
 </style>
 <body>
 <div class="home">
         <div class="block1">
            <br> <br>
-           <img src="./Dwelling_name_logo_dark.png" width=300px;>
+           <img src="./Dwelling_name_logo_dark.png" width=90%;>
            <p> Careful planning, Building to last </p>
            <br> <br> 
-           <img src="./neighborhood.png" width=350px;>
+           <img src="./neighborhood.png" width=100%;>
         </div>
     
         <div class= "block2">
@@ -103,17 +106,20 @@ a{
         <div class= "block3">
            <div>
              <img src="./hammer.png" width=90px;>
-            <p>RENOVATIONS & RESTORATIONS</p>
+            RENOVATIONS & RESTORATIONS
            </div>
             
           <div>
              <img src="./home.png" width=90px;>
-            <p> NEW CONSTRUCTION</p>
+             NEW CONSTRUCTION
            </div>
         </div>
     
         <div class="footer">
-          <img src="./ruler.png" width=100%;>
+             <picture>
+               <img src="./rulersmall.png" width=100%;>
+               <source media="(min-width:800px)" srcset="./rulerbig.png">
+             </picture>
           <div style="padding-top:50px;padding-bottom:25px;"> <h1>Let’s start the conversation</h1>
           
           JEFF@DWELLINGDESIGNANDBUILD.COM
